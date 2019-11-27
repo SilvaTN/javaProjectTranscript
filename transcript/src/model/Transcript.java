@@ -1,6 +1,10 @@
 package model;
 
 public class Transcript {
+
+    public Transcript (String name, int ID){
+
+    }
     //TODO: Design specification for this method
     //REQUIRES: 4 >= grade >= 0
     //MODIFIES: this
@@ -25,4 +29,8 @@ public class Transcript {
     //MODIFIES: nothing
     //EFFECTS: calculates GPA and returns it
     public double getGPA(){ return 0.0; }
+
+    public String getStudentName() {
+        return "Bob";
+    }
 }
